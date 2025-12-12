@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "biome check",
     "format": "biome format --write"
@@ -24,6 +24,7 @@
     "@types/react-dom": "^19",
     "@types/three": "^0.182.0",
     "babel-plugin-react-compiler": "1.0.0",
+    "raw-loader": "^4.0.2",
     "typescript": "^5"
   }
 }

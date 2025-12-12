@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "*.glsl": "glsl"
+  },
+  "glsllint.additionalStageAssociations": {
+    "**/vertex.glsl": "vertex",
+    "**/fragment.glsl": "fragment"
+  },
+  "glsllint.fallBackStage": "fragment",
+  "glsllint.validateOnSave": false
+}
+
+
